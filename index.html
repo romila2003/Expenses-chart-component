@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="style.css">
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Expenses chart component</title>
+
+</head>
+<body>
+  <main class="container">
+    <div class="my-balance">
+      <div class="flex">
+        <p class="my-balance">My balance</p>
+        <h2 class="price">$921.48</h2>
+      </div>
+      <img src="/images/logo.svg" alt="">
+    </div>
+    <div class="graph">
+      <h1 class="spendings">Spending - Last 7 days</h1>
+      <div class="chart-container">
+        <canvas class="chart" id="spendingChart"></canvas>
+      </div>
+      <div class="monthly-spendings">
+        <div class="monthly flex">
+          <p>Total this month</p>
+          <h2>$478.33</h2>
+        </div>
+        <div class="interests flex">
+          <p>+2.4%</p>
+          <p>from last month</p>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://www.frontendmentor.io/profile/romila2003">Romila</a>.
+  </fotoer>
+
+  <script src="script.js"></script>
+</body>
+</html>

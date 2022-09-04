@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0 20px;
+  font-family: "DM Sans", sans-serif;
+  background-color: hsl(27deg, 66%, 92%);
+  overflow-x: hidden;
+}
+
+main {
+  max-width: 360px;
+}
+
+.my-balance {
+  background-color: hsl(10deg, 79%, 65%);
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+}
+.my-balance .flex {
+  padding: 1em 1.5em;
+  color: hsl(33deg, 100%, 98%);
+}
+.my-balance .flex h2 {
+  margin-top: 3px;
+  font-weight: 700;
+}
+.my-balance img {
+  width: 15%;
+  margin-right: 1em;
+}
+
+.graph {
+  background-color: hsl(33deg, 100%, 98%);
+  border-radius: 12px;
+  padding: 2em 1.5em;
+  margin-top: 1em;
+}
+.graph h1 {
+  font-size: 1.5rem;
+  color: hsl(25deg, 47%, 15%);
+  margin-bottom: 1em;
+  font-weight: 700;
+}
+.graph .chart-container {
+  position: relative;
+  max-width: 100%;
+  margin-bottom: 1em;
+}
+.graph .monthly-spendings {
+  border-top: 2px solid hsl(27deg, 66%, 92%);
+  display: flex;
+  justify-content: space-between;
+}
+.graph .monthly-spendings .monthly {
+  margin-top: 1.5em;
+}
+.graph .monthly-spendings .monthly p {
+  color: hsl(28deg, 10%, 53%);
+  font-size: 0.9rem;
+}
+.graph .monthly-spendings .monthly h2 {
+  color: hsl(25deg, 47%, 15%);
+  font-weight: 700;
+  font-size: 2rem;
+}
+.graph .monthly-spendings .interests {
+  margin-top: 2.4em;
+}
+.graph .monthly-spendings .interests p:first-of-type {
+  color: hsl(25deg, 47%, 15%);
+  font-weight: 700;
+  margin-left: 3.5em;
+}
+.graph .monthly-spendings .interests p:last-of-type {
+  color: hsl(28deg, 10%, 53%);
+  font-size: 0.9rem;
+}
+.graph .flex {
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  font-size: 13px;
+  text-align: center;
+  margin-top: 1em;
+  color: hsl(25deg, 47%, 15%);
+  font-weight: 700;
+}
+footer a {
+  color: hsl(28deg, 10%, 53%);
+}
+footer a:hover {
+  color: hsl(10deg, 79%, 65%);
+}/*# sourceMappingURL=style.css.map */
