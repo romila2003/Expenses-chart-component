@@ -18,7 +18,8 @@ body {
 }
 
 main {
-  max-width: 360px;
+  max-width: 380px;
+  width: 100%;
 }
 
 .my-balance {
