@@ -32,24 +32,24 @@ Users should be able to:
 
 # Mobile Preview
 
-![screenshot]()
+![screenshot](https://github.com/romila2003/Expenses-chart-component/blob/main/mobile%20preview.PNG)
 
 # Mobile Preview - active
 
-![screenshot]()
+![screenshot](https://github.com/romila2003/Expenses-chart-component/blob/main/mobile%20preview%20-%20active.PNG)
 
 # Desktop Preview 
 
-![screenshot]()
+![screenshot](https://github.com/romila2003/Expenses-chart-component/blob/main/desktop%20preview.PNG)
 
 # Desktop Preview - desktop
 
-![screenshot]()
+![screenshot](https://github.com/romila2003/Expenses-chart-component/blob/main/desktop%20preview%20-%20active.PNG)
 
 ### Links
 
- - Source code: []()
- - Live website: []()
+ - Source code: [https://github.com/romila2003/Expenses-chart-component](https://github.com/romila2003/Expenses-chart-component)
+ - Live website: [https://romila-expenses-chart-component.netlify.app/](https://romila-expenses-chart-component.netlify.app/)
 
 ## My process
 
